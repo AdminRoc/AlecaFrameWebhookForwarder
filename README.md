@@ -71,9 +71,9 @@
 4. 验证安装（可选）：
    - 同时按键盘 `Win+R` 键，输入 `cmd` 按回车。
    - 在黑色窗口输入（可复制粘贴）：
-     python --version
+     `python --version`
    - 再输入：
-     pip --version
+     `pip --version`
    - 两个命令都显示版本号才算成功，否则重启电脑后重试。
 
 ② **安装依赖库（必须）**：
@@ -120,7 +120,7 @@
 > 2. 打开存放这个代码的文件夹，在顶部的文件路径地址栏里清空内容，直接输入“`cmd`”并回车，就会弹出一个已经定位好路径的黑窗口。
 
 打开CMD后，输入命令并回车：
-python AlecaFrameWebhookForwarder.py
+`python AlecaFrameWebhookForwarder.py`
 
 ② **保持命令行窗口处于开启状态**。
 此后，程序将监听 `http://127.0.0.1:9090/wechat_forward`。
@@ -138,7 +138,7 @@ python AlecaFrameWebhookForwarder.py
 #### 6. 验证测试（可选）
 
 ① 发送测试消息（在本程序所在文件夹的路径中，新开CMD执行）：
-curl -X POST http://127.0.0.1:9090/wechat_forward -d "content=test_message_from_cmd"
+`curl -X POST http://127.0.0.1:9090/wechat_forward -d "content=test_message_from_cmd"`
 
 ② 发送了测试消息后，检查企业微信群是否收到格式化的消息。
 
