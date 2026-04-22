@@ -19,6 +19,9 @@ import os
 # 该脚本还实现了消息去重功能，避免重复发送相同的消息。消息缓存会在2分钟内有效，超过时间后会被清除。
 # 如果你有任何问题或建议，请随时联系我。谢谢！
 # 如果这个程序帮助到了你，可以在Warframe给我留个好评，哈哈：https://warframe.market/zh-hans/profile/Qian.Kun
+# Github地址：https://github.com/AdminRoc/AlecaFrameWebhookForwarder
+# 使用文档地址：https://qcnye09jdqm2.feishu.cn/docx/Cyi7dgT5Woi3IGxFIfyc6h4ynlc?from=from_copylink
+# 交易模式焚诀：https://api.xiaoheihe.cn/v3/bbs/app/api/web/share?h_camp=link&h_src=YXBwX3NoYXJl&link_id=16e971c39cec （文档地址在视频下方的文本里）
 
 app = Flask(__name__)
 
